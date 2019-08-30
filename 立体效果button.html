@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>立体效果button</title>
+  <style>
+    body {
+      text-align: center;
+    }
+    button {
+      outline: none;
+      border: none;
+      padding: .3rem 1rem;
+      color: white;
+      border-radius: .2rem;
+      cursor: pointer;
+      background: linear-gradient(#27bfc5, #108896);
+      text-shadow: 0 1px 1px grey;
+      box-shadow: 0 .2rem 0 #045e69, 0 .2rem .2rem grey;
+    }
+    button:active {
+      box-shadow: 0 .1rem 0 #045e69, 0 .1rem .1rem grey;
+      transform: translate(0, 0.05rem);
+    }
+    pre {
+      color: #999
+    }
+  </style>
+</head>
+<body>
+  <button>click</button>
+  <pre>
+    放大500倍看效果
+  </pre>
+</body>
+</html>
