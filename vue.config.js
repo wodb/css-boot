@@ -18,7 +18,7 @@ module.exports = {
     },
     proxy: {
       '/public': {
-        target: 'https://train.airsports.club'
+        target: ''
       }
     }
   },
